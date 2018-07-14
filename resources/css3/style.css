@@ -158,8 +158,52 @@ input[type=submit]:active {
 .section-latest-news {
     background-color: #c0392b;
     color: #fff;
+    padding-left: 95px;
+    padding-right: 20px;
+}
+
+.section-latest-news h2 {
+    margin-right: 5%;
+}
+
+.section-latest-news h2:after {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.section-latest-news h3,
+.section-latest-news p {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.section-latest-news .btn {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+#news1 {
+    margin-top: 15%;
 }
 
 
-
+/* --- NEWS BUTTONS SETUP --- */
+.btn-news:link,
+.btn-news:visited {
+    border: 1px solid #fff;
+    color: #fff;
+}
+.btn-news:hover,
+.btn-news:active {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #c0392b;
+}
+/* --- NEWS BUTTONS SETUP --- */
 
