@@ -94,6 +94,15 @@ input[type=submit]:active {
     margin-left: 36.6%;
 }
 
+/* ------- DIVIDERS ------- */
+
+.divider1 {
+    position: absolute;
+    border-bottom: 2px solid #fff;
+    top: 408%;
+    left: 9%;
+    width: 30%;
+}
 
 /* ------------------------------------------------------------------- */
 /* HEADER */
@@ -160,6 +169,7 @@ input[type=submit]:active {
     color: #fff;
     padding-left: 95px;
     padding-right: 20px;
+    padding-bottom: 3%;
 }
 
 .section-latest-news h2 {
@@ -189,11 +199,11 @@ input[type=submit]:active {
 }
 
 #news1 {
-    margin-top: 15%;
+    margin-top: 17%;
 }
 
 
-/* --- NEWS BUTTONS SETUP --- */
+/* --- NEWS BUTTONS SETUP STARTS --- */
 .btn-news:link,
 .btn-news:visited {
     border: 1px solid #fff;
@@ -205,5 +215,104 @@ input[type=submit]:active {
     background-color: #fff;
     color: #c0392b;
 }
-/* --- NEWS BUTTONS SETUP --- */
+/* --- NEWS BUTTONS SETUP ENDS --- */
 
+/* ------------------------------------------------------------------- */
+/* SUBMIT YOUR IDEAS */
+/* ------------------------------------------------------------------- */
+
+.section-submit-ideas {
+    width: 50%;
+    background-image: url(images/dbd2a.jpg);
+    background-attachment: fixed;
+    width: 100vh;
+    height: 100vh;
+}
+
+.right-side {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 255%;
+    line-height: 1.7;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.right-side p {
+    text-align: center;
+}
+
+.right-side a {
+    font-size: 30px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+#note1 {
+    font-size: 15px;
+    color: #8b8b8b;
+    margin-top: 4%;
+}
+
+/* ------------------------------------------------------------------- */
+/* LATEST CONTENT DROPS */
+/* ------------------------------------------------------------------- */
+
+.section-latest-drops {
+    background-color: #c0392b;
+    color: #fff;
+    padding-top: 2%;
+    overflow: hidden;
+}
+
+.section-latest-drops .row {
+    margin-bottom: -22%;
+}
+
+#hr1 {
+    color: #fff;
+
+}
+
+.section-latest-drops h2:after {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.section-latest-drops h3 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.section-latest-drops img {
+    width: 100%;
+    border: 1px solid #fff;
+    margin-left: 87%;
+    margin-top: -3.7%;
+}
+
+.ls,
+.rs {
+    text-align: center;
+}
+
+.ls {
+    position: relative;
+    top: -155%;
+    margin-left: 5%;
+}
+
+.rs {
+    position: relative;
+    top: -115%;
+    margin-left: 5%;
+}
