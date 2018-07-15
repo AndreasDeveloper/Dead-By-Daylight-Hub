@@ -99,7 +99,6 @@ input[type=submit]:active {
 .divider1 {
     position: absolute;
     border-bottom: 2px solid #fff;
-    top: 415%;
     left: 9%;
     width: 30%;
 }
@@ -241,7 +240,7 @@ input[type=submit]:active {
     position: absolute;
     width: 50%;
     left: 50%;
-    top: 258%;
+    top: 250%;
     line-height: 1.7;
     font-size: 25px;
     padding-left: 20px;
@@ -267,6 +266,7 @@ input[type=submit]:active {
 /* ------------------------------------------------------------------- */
 /* LATEST CONTENT DROPS */
 /* ------------------------------------------------------------------- */
+
 
 .section-latest-drops {
     background-color: #c0392b;
@@ -325,6 +325,7 @@ input[type=submit]:active {
     margin-left: 5%;
 }
 
+
 /* ------------------------------------------------------------------- */
 /* CONTENT CREATORS */
 /* ------------------------------------------------------------------- */
@@ -336,7 +337,7 @@ input[type=submit]:active {
 }
 
 #ccb {
-    margin-left: 1%;
+    margin-left: -0.1%;
 }
 
 /* ------------------------------------------------------------------- */

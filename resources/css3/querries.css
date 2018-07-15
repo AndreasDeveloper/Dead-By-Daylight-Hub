@@ -151,6 +151,57 @@
     /* LATEST CONTENT DROPS ENDS */
 }
 
+/* 1067 px and 1386 px Breakpoints | 6a */
+@media (max-width: 1386px) and (min-width: 1067px) {
+
+    /* SUBMIT IDEAS STARTS */
+    .right-side {
+        padding-top: 6%;
+    }
+    /* SUBMIT IDEAS ENDS */
+
+    /* LATEST CONTENT DROPS STARTS */
+    .divider1 {
+        top: 415%;
+    }
+
+    .latest-left-side {
+        padding-top: 2%;
+    }
+    /* LATEST CONTENT DROPS ENDS */
+}
+
+/* 1216 px Breakpoint | 7 */
+@media only screen and (max-width: 1216px) {
+
+    /* SUBMIT IDEAS STARTS */
+    .right-side {
+        padding-top: 10%;
+    }
+
+    .right-side p {
+        padding-right: 10%;
+    }
+
+    #submitnow {
+        margin-left: 25%;
+    }
+    /* SUBMIT IDEAS ENDS */
+
+    /* LATEST CONTENT DROPS STARTS */
+    .divider1 {
+        padding-top: 15%;
+    }
+    /* LATEST CONTENT DROPS ENDS */
+
+    /* FOOTER STARTS */
+    .social-links a {
+        position: relative;
+        left: -400%;
+    }
+    /* FOOTER ENDS */
+}
+
 /* ------------------------------------------------------------------- */
 /* TABLETS AND PHONES */
 /* ------------------------------------------------------------------- */
@@ -307,7 +358,7 @@
 
     /* ABOUT US STARTS */
     .section-about h2 {
-        margin-right: 25%;
+        margin-right: 10%;
     }
 
     .icon-big {
@@ -328,6 +379,13 @@
         position: absolute;
         margin-left: 45%;
     }
+
+    #news1,
+    #news2,
+    #news3 {
+        width: 15%;
+    }
+
 
     #news4 {
         position: absolute;
@@ -351,7 +409,6 @@
     }
     /* LATEST NEWS ENDS */
 
-
     /* SUBMIT IDEAS STARTS */
     .section-submit-ideas {
         background-image: url(images/dbd2c.jpg);
@@ -360,15 +417,29 @@
     }
 
     .right-side {
-        font-size: 15px;
-        top: 340%;
-        left: 45%;
+        font-size: 12px;
+        top: 350%;
+        left: 42%;
+    }
+
+    .right-side h2 {
+        padding-right: 5%;
+    }
+
+    .right-side p {
+        padding: 0;
     }
 
     #submitnow {
-
         margin-left: 20%;
+        margin-bottom: 5%;
     }
+
+    #note1 {
+        padding: 0;
+        top: 110%;
+    }
+
     /* SUBMIT IDEAS ENDS */
 
     /* LATEST CONTENT DROPS STARTS */
@@ -430,8 +501,8 @@
 
     .divider1 {
         position: absolute;
-        top: 452.5%;
-        left: 10%;
+        top: 468%;
+        left: 7%;
     }
     /* LATEST CONTENT DROPS ENDS */
 }
@@ -569,12 +640,6 @@
         border: none;
     }
     /* LATEST CONTENT DROPS ENDS */
-
-
-
-
-
-
 
 }
 
