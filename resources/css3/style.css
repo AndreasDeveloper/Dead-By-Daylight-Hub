@@ -276,7 +276,7 @@ input[type=submit]:active {
 }
 
 .section-latest-drops .row {
-    margin-bottom: -25%;
+    margin-bottom: -26%;
 }
 
 #hr1 {
@@ -323,4 +323,118 @@ input[type=submit]:active {
     position: relative;
     top: -105%;
     margin-left: 5%;
+}
+
+/* ------------------------------------------------------------------- */
+/* CONTENT CREATORS */
+/* ------------------------------------------------------------------- */
+
+.section-cc {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#ccb {
+    margin-left: 1%;
+}
+
+/* ------------------------------------------------------------------- */
+/* PICTURE TAB */
+/* ------------------------------------------------------------------- */
+
+.section-pt {
+    background-image: (linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url(images/dbd8.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/dbd8.jpg);
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+#logo1 {
+    margin-left: 30%;
+}
+
+/* ------------------------------------------------------------------- */
+/* FOOTER */
+/* ------------------------------------------------------------------- */
+
+footer {
+    background-color: #c0392b;
+    padding: 50px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+    font-size: 95%;
+}
+
+.social-links {
+    position: relative;
+    color: #fff;
+    list-style: none;
+    left: 85%;
+    font-size: 120%;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 50px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #000;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 180%;
+}
+
+icon ion-logo-facebook,
+icon ion-logo-twitter,
+icon ion-logo-instagram,
+icon ion-logo-googleplus {
+    transition: color 0.2s;
+}
+
+.i1:hover {
+    color: #3b5999;
+}
+
+.i2:hover {
+    color: #55acee;
+}
+
+.i3:hover {
+    color: #e74c3c;
+}
+
+.i4:hover {
+    color: #e67e22;
+}
+
+#cr {
+    color: #fff;
+    text-align: center;
+    margin-left: 43%;
+    margin-top: 5%;
+    margin-bottom: -2%;
 }
