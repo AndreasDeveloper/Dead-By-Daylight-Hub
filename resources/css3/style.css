@@ -99,7 +99,7 @@ input[type=submit]:active {
 .divider1 {
     position: absolute;
     border-bottom: 2px solid #fff;
-    top: 408%;
+    top: 415%;
     left: 9%;
     width: 30%;
 }
@@ -276,7 +276,7 @@ input[type=submit]:active {
 }
 
 .section-latest-drops .row {
-    margin-bottom: -22%;
+    margin-bottom: -25%;
 }
 
 #hr1 {
@@ -315,12 +315,12 @@ input[type=submit]:active {
 
 .ls {
     position: relative;
-    top: -155%;
+    top: -125%;
     margin-left: 5%;
 }
 
 .rs {
     position: relative;
-    top: -115%;
+    top: -105%;
     margin-left: 5%;
 }
