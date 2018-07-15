@@ -195,13 +195,21 @@ input[type=submit]:active {
 .section-latest-news .btn {
     text-align: center;
     margin-left: 30%;
-    margin-top: 5%;
+    margin-top: -3%;
 }
 
-#news1 {
-    margin-top: 17%;
+#news4 {
+    margin-top: 22%;
 }
 
+#p1,
+#p2,
+#p3 {
+    position: relative;
+    border-right: 1px solid #fff;
+    height: 50%;
+    padding-right: 20px;
+}
 
 /* --- NEWS BUTTONS SETUP STARTS --- */
 .btn-news:link,
@@ -233,7 +241,7 @@ input[type=submit]:active {
     position: absolute;
     width: 50%;
     left: 50%;
-    top: 255%;
+    top: 258%;
     line-height: 1.7;
     font-size: 25px;
     padding-left: 20px;
@@ -297,7 +305,7 @@ input[type=submit]:active {
     width: 100%;
     border: 1px solid #fff;
     margin-left: 87%;
-    margin-top: -3.7%;
+    margin-top: -3.8%;
 }
 
 .ls,
