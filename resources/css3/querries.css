@@ -1,3 +1,160 @@
+/* ------------------------------------------------------------------- */
+/* DESKTOP BREAK POINTS */
+/* ------------------------------------------------------------------- */
+
+/* 1215 px Breakpoint | 1 */
+@media only screen and (max-width: 1215px) {
+
+    /* HEADER STARTS */
+    #headt {
+        top: 40%;
+    }
+
+    #header-btn {
+        top: 700%;
+    }
+    /* HEADER ENDS */
+}
+
+/* 1137 px Breakpoint | 2 */
+@media only screen and (max-width: 1137px) {
+
+    /* LATEST NEWS STARTS */
+    #news2 {
+        position: absolute;
+        top: 92%;
+        right: 35%;
+    }
+
+    #news1 {
+        position: relative;
+        right: 8%;
+    }
+
+    #news3 {
+        position: relative;
+        right: 7%;
+    }
+
+    #news4 {
+        position: relative;
+        margin-top: 25%;
+    }
+    /* LATEST NEWS ENDS */
+
+    /* SUBMIT IDEAS STARTS */
+    .section-submit-ideas p {
+        font-size: 18px;
+        padding-left: 35px;
+        padding-right: 22px;
+    }
+
+    .section-submit-ideas h2 {
+        padding-left: 25px;
+    }
+    /* SUBMIT IDEAS ENDS */
+
+    /* LATEST CONTENT DROPS STARTS */
+    .section-latest-drops .row {
+        margin-bottom: -26%;
+    }
+    /* LATEST CONTENT DROPS ENDS */
+}
+
+/* 1103 px Breakpoint | 3 */
+@media only screen and (max-width: 1103px) {
+
+    /* SUBMIT IDEAS STARTS */
+    .section-submit-ideas p {
+        padding-left: 55px;
+    }
+
+    #note1 {
+        position: relative;
+        padding-left: 50px;
+        font-size: 10px;
+    }
+    /* SUBMIT IDEAS ENDS */
+
+    /* LATEST CONTENT DROPS STARTS */
+    .section-latest-drops .row {
+        margin-bottom: -26.6%;
+    }
+
+    .divider1 {
+        margin-top: -5%;
+        margin-left: 3%;
+    }
+    /* LATEST CONTENT DROPS ENDS */
+}
+
+/* 1095 px Breakpoint | 4 */
+@media only screen and (max-width: 1095px) {
+
+     /* LATEST NEWS STARTS */
+     #news3 {
+        position: absolute;
+        top: 90%;
+        right: 32%;
+    }
+    /* LATEST NEWS ENDS */
+
+    /* LATEST CONTENT DROPS STARTS */
+    .section-latest-drops .row {
+        margin-bottom: -27.4%;
+    }
+    /* LATEST CONTENT DROPS ENDS */
+}
+
+/* 1031 px Breakpoint | 5 */
+@media only screen and (max-width: 1031px) {
+
+    /* LATEST NEWS STARTS */
+    #news1,
+    #news2 {
+        width: 45%;
+    }
+    /* LATEST NEWS ENDS */
+
+    /* LATEST CONTENT DROPS STARTS */
+    .divider1 {
+        margin-top: 1%;
+    }
+
+    #lb1 {
+        margin-bottom: 10px;
+    }
+    /* LATEST CONTENT DROPS ENDS */
+}
+
+/* 1000 px Breakpoint | 6 */
+@media only screen and (max-width: 840px) {
+
+    /* ABOUT US STARTS */
+    .section-about h2 {
+        padding-right: 12%;
+    }
+    /* ABOUT US ENDS */
+
+    /* SUBMIT IDEAS STARTS */
+    #note1 {
+        position: absolute;
+        top: 80%;
+        right: 32%;
+    }
+    /* SUBMIT IDEAS ENDS */
+
+    /* LATEST CONTENT DROPS STARTS */
+    .section-latest-drops img {
+        width: 2%;
+    }
+    /* LATEST CONTENT DROPS ENDS */
+}
+
+/* ------------------------------------------------------------------- */
+/* TABLETS AND PHONES */
+/* ------------------------------------------------------------------- */
+
 /* Big Tablet to 1200 px (width smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
 
@@ -276,10 +433,149 @@
         top: 452.5%;
         left: 10%;
     }
-
+    /* LATEST CONTENT DROPS ENDS */
 }
 
  /* Small phones 0-480px */
-    @media only screen and (max-width: 480px)
+@media only screen and (max-width: 480px) {
+
+    /* HEADER STARTS */
+    #headt {
+        font-size: 20px;
+        top: 15%;
+    }
+
+    #header-btn {
+        font-size: 15px;
+        top: 18%;
+        left: 42%;
+    }
+    /* HEADER ENDS */
+
+    /* ABOUT US STARTS */
+    .section-about h2 {
+        margin-left: 1%;
+    }
+
+    .section-about h3,
+    .section-about p {
+        margin-left: 15%;
+    }
+
+    .box {
+        margin-right: 25%;
+    }
+    /* ABOUT US ENDS */
+
+    /* LATEST NEWS STARTS */
+    #news1,
+    #news2,
+    #news3,
+    #news4 {
+        width: 29%;
+    }
+
+    #news1,
+    #news2,
+    #news3 {
+        position: absolute;
+        left: -10%;
+    }
+
+    #news4 {
+        top: 22%;
+        left: -10%;
+    }
+    /* LATEST NEWS ENDS */
+
+    /* SUBMIT IDEAS STARTS */
+    .section-submit-ideas {
+        background-image: url(images/dbd2d.jpg);
+        background-attachment: fixed;
+        width: 40vh;
+    }
+
+    .right-side h2 {
+        position: absolute;
+        font-size: 15px;
+        top: 400px;
+        left: -12%;
+    }
+
+    .right-side p {
+        position: absolute;
+        font-size: 12px;
+        top: 480px;
+        padding-right: 40%;
+        padding-left: 5%;
+        padding-bottom: -40%;
+    }
+
+    #submitnow {
+        position: absolute;
+        font-size: 8px;
+        top: 980px;
+        left: 2px;
+    }
+
+    #note1 {
+        color: #000;
+        position: absolute;
+        font-size: 5px;
+        top: 955px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* SUBMIT IDEAS ENDS */
+
+    /* LATEST CONTENT DROPS STARTS */
+    .section-latest-drops img {
+       width: 100%;
+        margin: 0;
+    }
+
+    #cc img {
+        margin-top: -2%;
+        margin-bottom: 40%;
+    }
+
+
+    .section-latest-drops .row {
+        margin-bottom: -40%;
+    }
+
+    .ls h2,
+    .ls h3,
+    .rs h2,
+    .rs h3 {
+        font-size: 6px;
+    }
+
+    #ld2,
+    #ld1 {
+        font-size: 7px;
+    }
+
+    #lb1,
+    #lb2 {
+        font-size: 3px;
+    }
+
+    .rs {
+        margin-left: 2%;
+    }
+
+    .divider1 {
+        border: none;
+    }
+
+
+
+
+
+
+
+
+}
 
 
